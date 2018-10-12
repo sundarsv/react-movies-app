@@ -38,7 +38,7 @@ class Header extends Component {
                 </header>
                 <Modal ariaHideApp={false} isOpen={this.state.modalisOpen} contentLabel="Login" 
                 onRequestClose={this.closeModalHandler}>
-                    <Tabs value={this.state.value} onChange={tabChangeHandler}>
+                    <Tabs value={this.state.value} onChange={this.tabChangeHandler}>
                         <Tab label="Login" />
                         <Tab label="Register" />
                     </Tabs>
