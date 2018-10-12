@@ -1,9 +1,19 @@
-.headerContainer {
+.app-header {
     background: black;
-    height:40px;
-    padding: 5px 10px 5px 10px;
+    height:36px;
+    padding: 8px 32px 8px 32px;
 }
 
-.loginButton {
+.login-button {
     float:right;
 }
+
+.app-logo {
+    animation: app-logo-spin infinite 8s linear;
+    height: 35px;
+    background: #ff7f7f;
+ }
+ 
+ @keyframes app-logo-spin {
+    from { transform: scaleX(-1); }
+ }
