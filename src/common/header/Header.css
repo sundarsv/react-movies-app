@@ -21,3 +21,12 @@
  .modal-container {
      margin: 20% 0 0 40%;
  }
+
+ .tabs {
+     margin-bottom: 20px;
+ }
+
+ .tab-container{
+    text-align: center;
+    display:inline-block;
+ }
