@@ -17,3 +17,7 @@
  @keyframes app-logo-spin {
     from { transform: scaleX(-1); }
  }
+
+ .modal-container {
+     margin: 20% 0 0 40%;
+ }
