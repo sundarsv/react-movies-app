@@ -1,44 +1,40 @@
 .app-header {
-    background: black;
-    height:36px;
-    padding: 8px 32px 8px 32px;
+    background-color: #222;
+    height: 36px;
+    padding: 8px 32px 8px 16px;
 }
 
 .login-button {
-    float:right;
-}
-
-.bookshow-button {
-    float:right;
-    margin-right: 20px;
+    float: right;
 }
 
 .app-logo {
     animation: app-logo-spin infinite 8s linear;
     height: 35px;
     background: #ff7f7f;
- }
- 
- @keyframes app-logo-spin {
+}
+
+.bookshow-button {
+    float: right;
+    margin-right: 8px;
+}
+
+@keyframes app-logo-spin {
     from { transform: scaleX(-1); }
- }
+}
 
- .modal-container {
-     margin: 20% 0 0 40%;
- }
+.tabs {
+    margin-bottom: 20px;
+}
 
- .tabs {
-     margin-bottom: 20px;
- }
+.dispNone {
+    display: none;
+}
 
- .dispNone {
-     display: none;
- }
+.dispBlock {
+    display: block;
+}
 
- .dispBlock {
-     display: block;
- }
-
- .red {
-     color: red;
- }
+.red {
+    color: red;
+}
